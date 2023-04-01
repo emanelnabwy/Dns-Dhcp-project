@@ -1,0 +1,11 @@
+zone "iti.org" IN {
+        type master;
+        file "iti.org";
+        allow-update { none; };
+};
+
+zone "5.5.10.in-addr.arpa" IN {
+        type master;
+        file "iti.org_re";
+        allow-update { none; };
+};
