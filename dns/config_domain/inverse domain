@@ -12,3 +12,6 @@ $TTL 3H
 22      IN      PTR        eman-client.iti.org.
 20      IN      PTR        firewall.iti.org.
 5       IN      PTR        dhcp.iti.org.
+
+#################################################
+write in new file name "iti.org_re" by owner group named
