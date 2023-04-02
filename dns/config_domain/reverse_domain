@@ -1,0 +1,17 @@
+$TTL 3H
+@       IN SOA  @ rname.invalid. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+        NS      @
+        A       127.0.0.1
+        AAAA    ::1
+24      IN      PTR        dns.iti.org.
+22      IN      PTR        eman-client.iti.org.
+20      IN      PTR        firewall.iti.org.
+5       IN      PTR        dhcp.iti.org.
+
+#################################################
+write in new file name "iti.org_re" by owner group named
